@@ -1,3 +1,5 @@
+package com.usc.ai;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
@@ -29,8 +31,6 @@ public class PlayImpl {
 	}
 
 	public static ArrayList<Move> getAllPossibleMove(Checker board, ArrayList<Cell> allPlayers) {
-		// TODO Auto-generated method stub
-		MoveToPlay nextMove = null;
 		boolean jumpMovesAvailable = false;
 
 		ArrayList<ArrayList<Move>> allPlayersMoves = new ArrayList<>();

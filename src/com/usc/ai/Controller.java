@@ -1,3 +1,5 @@
+package com.usc.ai;
+
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.FileWriter;
@@ -10,7 +12,7 @@ import java.util.List;
 
 public class Controller extends PlayImpl {
 
-	private static final String INPUT_FILE = "/Users/student/Documents/ArtificialIntelligence/Homework2/DJCode/input.txt";
+	private static final String INPUT_FILE = "input.txt";
 	private static final String OUTPUT_FILE = "output.txt";
 
 	private static final String BLANK_SPACE = " ";
